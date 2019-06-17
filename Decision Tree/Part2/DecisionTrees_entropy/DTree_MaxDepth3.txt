@@ -1,0 +1,14 @@
+DECISION TREE using INFORMATION GAIN with Max_Depth = 3
+|
+├── writes = 0
+│   ├── god = 0
+│   │   ├── that = 0 :: "comp.graphics"
+│   │   └── that = 1 :: "comp.graphics"
+│   └── god = 1
+│       ├── use = 0 :: "alt.atheism"
+│       └── use = 1 :: "alt.atheism"
+└── writes = 1
+    ├── graphics = 0
+    │   ├── image = 0 :: "alt.atheism"
+    │   └── image = 1 :: "comp.graphics"
+    └── graphics = 1 :: "comp.graphics"

@@ -1,0 +1,22 @@
+DECISION TREE using INFORMATION GAIN with Max_Depth = 4
+|
+├── writes = 0
+│   ├── god = 0
+│   │   ├── that = 0
+│   │   │   ├── bible = 0 :: "comp.graphics"
+│   │   │   └── bible = 1 :: "alt.atheism"
+│   │   └── that = 1
+│   │       ├── wrote = 0 :: "comp.graphics"
+│   │       └── wrote = 1 :: "alt.atheism"
+│   └── god = 1
+│       ├── use = 0 :: "alt.atheism"
+│       └── use = 1
+│           ├── archive = 0 :: "comp.graphics"
+│           └── archive = 1 :: "alt.atheism"
+└── writes = 1
+    ├── graphics = 0
+    │   ├── image = 0
+    │   │   ├── that = 0 :: "alt.atheism"
+    │   │   └── that = 1 :: "alt.atheism"
+    │   └── image = 1 :: "comp.graphics"
+    └── graphics = 1 :: "comp.graphics"

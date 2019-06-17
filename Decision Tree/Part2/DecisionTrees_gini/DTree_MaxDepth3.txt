@@ -1,0 +1,14 @@
+DECISION TREE using GINI INDEX with Max_Depth = 3
+|
+├── writes = 0
+│   ├── god = 0
+│   │   ├── that = 0 :: "comp.graphics"
+│   │   └── that = 1 :: "comp.graphics"
+│   └── god = 1
+│       ├── computers = 0 :: "alt.atheism"
+│       └── computers = 1 :: "comp.graphics"
+└── writes = 1
+    ├── graphics = 0
+    │   ├── image = 0 :: "alt.atheism"
+    │   └── image = 1 :: "comp.graphics"
+    └── graphics = 1 :: "comp.graphics"

@@ -1,0 +1,22 @@
+DECISION TREE using GINI INDEX with Max_Depth = 4
+|
+├── writes = 0
+│   ├── god = 0
+│   │   ├── that = 0
+│   │   │   ├── bible = 0 :: "comp.graphics"
+│   │   │   └── bible = 1 :: "alt.atheism"
+│   │   └── that = 1
+│   │       ├── wrote = 0 :: "comp.graphics"
+│   │       └── wrote = 1 :: "alt.atheism"
+│   └── god = 1
+│       ├── computers = 0
+│       │   ├── crash = 0 :: "alt.atheism"
+│       │   └── crash = 1 :: "comp.graphics"
+│       └── computers = 1 :: "comp.graphics"
+└── writes = 1
+    ├── graphics = 0
+    │   ├── image = 0
+    │   │   ├── that = 0 :: "alt.atheism"
+    │   │   └── that = 1 :: "alt.atheism"
+    │   └── image = 1 :: "comp.graphics"
+    └── graphics = 1 :: "comp.graphics"

@@ -1,0 +1,4 @@
+DECISION TREE using GINI INDEX with Max_Depth = 1
+|
+├── writes = 0 :: "comp.graphics"
+└── writes = 1 :: "alt.atheism"

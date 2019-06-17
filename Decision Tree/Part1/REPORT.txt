@@ -1,0 +1,90 @@
+             Numerised Training DataSet            
+===================================================
+  price    maintenance  capacity airbag  profitable
+0        1           1         0       0          1
+1        1           2         1       1          0
+2        1           0         1       0          0
+3        2           2         1       0          0
+4        2           2         1       1          1
+5        2           0         0       1          0
+6        0           2         1       1          1
+7        0           0         0       1          0
+8        0           0         2       1          1
+
+             Numerised Testing DataSet             
+===================================================
+  price    maintenance  capacity airbag  profitable
+0        2           0         2       0          1
+1        1           1         1       0          1
+
+
+
+DECISION TREE using INFORMATION GAIN
+|
+├── maintenance = high
+│   ├── capacity = 2 :: "no"
+│   ├── capacity = 4 :: "no"
+│   └── capacity = 5 :: "yes"
+├── maintenance = low :: "yes"
+└── maintenance = med
+    ├── price = high :: "yes"
+    ├── price = low :: "no"
+    └── price = med
+        ├── airbag = no :: "no"
+        └── airbag = yes :: "yes"
+
+
+
+DECISION TREE using GINI INDEX
+|
+├── maintenance = high
+│   ├── capacity = 2 :: "no"
+│   ├── capacity = 4 :: "no"
+│   └── capacity = 5 :: "yes"
+├── maintenance = low :: "yes"
+└── maintenance = med
+    ├── price = high :: "yes"
+    ├── price = low :: "no"
+    └── price = med
+        ├── airbag = no :: "no"
+        └── airbag = yes :: "yes"
+
+
+                               Metrics at Root Node                               
+==================================================================================
+                    Self_InfoGain  SckLn_InfoGain  Self_GiniIndex  SckLn_GiniIndex
+Root Impurity            0.991076        0.991076        0.493827         0.493827
+Attribute Impurity       0.805012        0.848386        0.388889         0.416667
+Impurity Reduction       0.186064        0.142690        0.104938         0.077160
+
+
+        Result on Training Dataset        
+==========================================
+  Self_IG SckLn_IG Self_GI SckLn_GI Actual
+0     yes      yes     yes      yes    yes
+1      no       no      no       no     no
+2      no       no      no       no     no
+3      no       no      no       no     no
+4     yes      yes     yes      yes    yes
+5      no       no      no       no     no
+6     yes      yes     yes      yes    yes
+7      no       no      no       no     no
+8     yes      yes     yes      yes    yes
+
+        Result on Testing Dataset         
+==========================================
+  Self_IG SckLn_IG Self_GI SckLn_GI Actual
+0     yes      yes     yes      yes    yes
+1     yes      yes     yes      yes    yes
+
+
+      Accuracy on Training Dataset     
+=======================================
+   Self_IG  SckLn_IG  Self_GI  SckLn_GI
+0  100.00%   100.00%  100.00%   100.00%
+
+      Accuracy on Testing Dataset      
+=======================================
+   Self_IG  SckLn_IG  Self_GI  SckLn_GI
+0  100.00%   100.00%  100.00%   100.00%
+
