@@ -17,7 +17,7 @@ After the Graph is formed in this way, we iteratively keep on removing the edge 
 	matplotlib  - Graph Plotting
 	networkx    - To make the Graph, Calculate Edge Betweenness Centrality
 	sys 	    - Redirecting Standard Output
-	os 		    - Opening File 
+	os 	    - Opening File 
 	copy 	    - Deep Copying of a Value
 
 ## Required Files
@@ -30,5 +30,8 @@ After the Graph is formed in this way, we iteratively keep on removing the edge 
 	Running Time around 40 seconds 
 
 ## Output
-	GirvanNewmann_XX.txt - Graph-Based Cluster with Threshold = 0.XX
-	Proximity.csv - Stores the Calculated Initial Proximity Matrix
+
+### GirvanNewmann_XX.txt
+	Graph-Based Cluster with Threshold = 0.XX
+### Proximity.csv
+	Stores the Calculated Initial Proximity Matrix
