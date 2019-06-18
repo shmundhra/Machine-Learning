@@ -1,18 +1,18 @@
-# Regression Classifier - Part4
+# REGRESSION TOOL - Part4
 
 ## Required Packages
 	pandas 	    - Data Manipulation
 	numpy 	    - Numeric Calculation
 	matplotlib  - Graph Plotting
 	sys 	    - Redirecting Standard Output
-	os 		    - Opening File 
+	os 	    - Opening File 
 
 ## Command Format
-python [script_name]
+	python [script_name]
 
 ## Execution
-Running Time around **240 seconds**
-Ignore Warnings if any
+	Running Time around 240 seconds
+	Ignore Warnings if any
 
 ## Output
 
