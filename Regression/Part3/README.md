@@ -1,4 +1,4 @@
-# REGRESSION CLASSIFIER - Part3
+# REGRESSION TOOL - Part3
 
 ## Required Packages
 	pandas 	    - Data Manipulation
