@@ -27,7 +27,7 @@ After we have updated the **Proximity Matrix**, we update the **Closest Matrix**
 	matplotlib  - Graph Plotting
 	anytree     - Storing the Dendogram
 	sys 	    - Redirecting Standard Output
-	os 		    - Opening File 
+	os 	    - Opening File 
 	copy 	    - Deep Copying of a Value
 
 ## Required Files
@@ -40,6 +40,10 @@ After we have updated the **Proximity Matrix**, we update the **Closest Matrix**
 	Running Time around 1 second
 
 ## Output
-	SingleLinkage.txt - Singly Linked Cluster Information 
-	CompleteLinkage.txt - Completely Linked Cluster Information 
-	Proximity.csv - Stores the Calculated Initial Proximity Matrix
+
+### SingleLinkage.txt
+	Singly Linked Cluster Information 
+### CompleteLinkage.txt 
+	Completely Linked Cluster Information 
+### Proximity.csv 
+	Stores the Calculated Initial Proximity Matrix
