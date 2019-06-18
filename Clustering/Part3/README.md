@@ -20,10 +20,17 @@ In this folder, we aim to evaluate the sets of clusters we obtain using SinglyLi
 
 ## Execution
 	Running Time around 75 seconds 
+	Ignore Warnings if any
 
 ## Output
-	Results.txt - Stores the Clusters formed by Single and Complete Linkage, and GirvanNewman with different thresholds
-	SingleLinkage.txt - Stores the Dendogram for Singly Linked Clustering  
-    CompleteLinkage.txt - Stores the Dendogram for Completely Linked Clustering 
-    NMI_Values.csv - Stores the NMI Values for the Different Generated Clusters
-    Proximity.csv - Stores the Calculated Initial Proximity Matrix
+	
+### Results.txt 
+	Stores the Clusters formed by Single and Complete Linkage, and GirvanNewman with different thresholds
+### SingleLinkage.txt
+	Stores the Dendogram for Singly Linked Clustering  
+### CompleteLinkage.txt 
+	Stores the Dendogram for Completely Linked Clustering 
+### NMI_Values.csv 
+	Stores the NMI Values for the Different Generated Clusters
+### Proximity.csv
+	Stores the Calculated Initial Proximity Matrix
