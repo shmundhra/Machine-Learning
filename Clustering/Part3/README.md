@@ -9,7 +9,7 @@ In this folder, we aim to evaluate the sets of clusters we obtain using SinglyLi
 	anytree     - Storing the Dendogram 
 	networkx    - To make the Graph, Calculate Edge Betweenness Centrality
 	sys 	    - Redirecting Standard Output
-	os 		    - Opening File 
+	os 	    - Opening File 
 	copy 	    - Deep Copying of a Value
 
 ## Required Files
