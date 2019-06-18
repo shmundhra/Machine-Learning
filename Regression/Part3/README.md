@@ -5,14 +5,14 @@
 	numpy 	    - Numeric Calculation
 	matplotlib  - Graph Plotting
 	sys 	    - Redirecting Standard Output
-	os 		    - Opening File 
+	os	    - Opening File 
 
 ## Command Format
-python [script_name]
+	python [script_name]
 
 ## Execution
-Running Time around **35 seconds**
-Ignore Warnings if any
+	Running Time around 35 seconds
+	Ignore Warnings if any
 
 ## Output
 
